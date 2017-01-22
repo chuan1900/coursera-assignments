@@ -10,16 +10,17 @@ body {
   background-color: #cccccc;
   border-radius: 0;
   border: 0;
+  height: 100px;
 }
 
 #restaurant-name {
-  /*font-size: 30px;
+  font-size: 30px;
   width: 150px;
   height: 80px;
   padding-top: 20px;
-  margin: 10px 15px 10px 0;*/
+  margin: 10px 15px 10px 0;
   height: 80px;
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -27,7 +28,7 @@ body {
   text-shadow: 1px 1px 1px #222;
   padding-top: 20px;
   margin: 10px 15px 10px 0;
-  line-height: .75;
+  line-height: .75;*/
 }
 
 h1 {
@@ -53,7 +54,7 @@ h1 {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 /* END HEADER */
 
