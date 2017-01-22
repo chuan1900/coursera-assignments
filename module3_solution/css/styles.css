@@ -13,23 +13,7 @@ body {
   height: 100px;
 }
 
-#restaurant-name {
-  font-size: 30px;
-  width: 150px;
-  height: 80px;
-  padding-top: 20px;
-  margin: 10px 15px 10px 0;
-  height: 80px;
-  /*font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  padding-top: 20px;
-  margin: 10px 15px 10px 0;
-  line-height: .75;*/
-}
+
 
 h1 {
   margin-bottom: 30px;
@@ -64,6 +48,13 @@ h1 {
   background-color: #cccccc;
 }
 
+.row {
+  text-align: center;
+  background-color: grey;
+  border: 5px solid;
+}
+
+
 @media (max-width: 767px) {
   #collapsable-nav {
     background-color: #f5f5f5;
@@ -74,7 +65,7 @@ h1 {
     margin-left: 20px;
   }
 
-  #main-content {
+  .row {
     margin-left: 30px;
     margin-right: 30px;
   }
